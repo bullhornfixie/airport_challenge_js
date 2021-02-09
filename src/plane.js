@@ -4,4 +4,8 @@ class Plane{
     return true
   };
 
+  takeOff() {
+    return true
+  };
+
 }

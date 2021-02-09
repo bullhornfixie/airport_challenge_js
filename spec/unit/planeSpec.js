@@ -7,4 +7,9 @@ describe('Plane', function() {
     expect(plane.land('airport')).toEqual(true);
   });
 
+  it('instructs a plane to take off from an airport', function() {
+    expect(plane.takeOff()).toEqual(true);
+  });
+  
+
 })
