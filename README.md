@@ -44,4 +44,10 @@ I want to #prevent landing# when #weather is stormy#
 |method | edits |
 |---|---|
 |to land | plane |
-|
+|take off | plane |
+|confirm that it is no longer in the airport | airport/ plane |
+|prevent landing when airport is full | airport |
+|airport is full? | airport |
+|default airport capacity that can be overridden as appropriate | airport |
+|prevent takeoff when weather is stormy | plane |
+|prevent landing when weather is stormy | plane |
