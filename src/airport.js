@@ -1,11 +1,13 @@
-class Airport {
-
+class Airport{
   constructor() {
-    var hanger = [];
-  }
+    this.hangar = 0;
+      }
 
-  addPlane(plane){
-    if (this.hanger.length <= 60) {this.hanger.push(plane)};
-  }
+  land() {
+    hangar += 1
+    return hangar
+  };
+
+
 
 }

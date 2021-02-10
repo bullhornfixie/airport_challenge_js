@@ -1,11 +1,16 @@
-describe('Airport', function() {
-  var airport;
+'use strict';
 
-  beforeEach(function() { airport = new Airport; });
+describe('Airport Test Suite', function() { 
+    var airport;
+    var plane;
+  
+    //This will be called before running each spec
+    beforeEach(function() { airport = new Airport(); plane = new Plane();});
 
-  it('will not let planes land when it is full', function() {
-    for (let iteration = 0; iteration < 60; iteration++) { airport.addPlane('plane'); };
-    expect(airport.addPlane('plane')).toThrow(new Error("Cannot land airport is at maximum capacity"));
+    it('instructs a plane to land at an airport', function() {
+      airport.land(plane)
+      expect(airport.land()).toEqual(1)
+  
+    });
+  
   });
-
-})

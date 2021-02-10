@@ -1,10 +1,6 @@
 class Plane{
 
-  land(airport) {
-    return true
-  };
-
-  takeOff() {
+  land() {
     return true
   };
 
